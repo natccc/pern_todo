@@ -1,4 +1,6 @@
-const {Pool} = require('pg')
+const {Pool} = require("pg")
+
+
 
 const pool = new Pool({
     user: "postgres",
@@ -8,4 +10,4 @@ const pool = new Pool({
     database:"perntodo"
 })
 
-module.exports = pool
+module.exports=pool
